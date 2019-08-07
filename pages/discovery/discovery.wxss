@@ -1,0 +1,71 @@
+/* pages/discovery/discovery.wxss */
+
+.banner{
+  height: 375rpx;
+}
+
+.swiper-img{
+  width: 100%;
+}
+
+.container-item{
+  padding: 30rpx 24rpx 12rpx;
+  margin-bottom: 10rpx;
+  background-color: #fff;
+  box-shadow: 0 2px 5px #eee;
+}
+
+.container-item__hd {
+  margin-bottom: 10rpx;
+}
+
+.container-item__hdavatar {
+  float: left;
+}
+
+.container-item__hdavatar image{
+  width: 45rpx;
+  height: 45rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.container-item__hdavatar text{
+  font-size: 14px;
+  color: #a0acac;
+  margin-left: 10rpx;
+}
+
+.container-item__more image{
+  width: 40rpx;
+  height: 45rpx;
+  float: right;
+  margin-top: 10rpx;
+}
+
+.container-item__cntitle{
+  font-size: 14px;
+}
+
+.container-item__cnt{
+  margin-top: 10rpx;
+  font-size: 12px;
+  color: #5b5b5b;
+}
+
+.container-item__ft text{
+  font-size: 12px;
+  color: #5b5b5b;
+}
+
+.container-item__ft .dot:after{
+  content: '';
+  display: inline-block;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background-color: #5b5b5b;
+  vertical-align: middle;
+  margin: 0 10rpx;
+
+}

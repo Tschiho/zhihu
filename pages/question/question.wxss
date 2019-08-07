@@ -1,0 +1,166 @@
+/* pages/question/question.wxss */
+.top-panel{
+  padding: 40rpx 20rpx 10rpx;
+  background-color: #fff;
+}
+
+.scroll-container{
+  width: 100%;
+  height: 80rpx;
+  overflow: hidden;
+}
+
+.top-panel__keywords{
+  white-space: nowrap;
+}
+
+
+
+.keywords-item{
+  display: inline-block;
+  padding: 15rpx 20rpx;
+  background-color: #eee;
+  font-size: 14px;
+  border-radius: 5px;
+  color:#889091;
+  margin: 10rpx;
+}
+
+.top-panel__title{
+  margin: 20rpx 16rpx;
+}
+
+.top-panel__title .desc{
+  font-size: 12px;
+}
+
+.top-panel__ft {
+  margin: 0 16rpx;
+}
+
+.top-panel__ft .left{
+  float: left;
+}
+
+.top-panel__ft image{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.ft__watch{
+  margin-right: 14rpx;
+}
+
+.ft__num{
+  color: #bebebe;
+  font-size: 12px;
+}
+
+.top-panel__ft view{
+  display: inline-block;
+  margin-right: 40rpx;
+}
+
+.atttention_btn{
+  float: right;
+  width: 160rpx;
+  height: 74rpx;
+  line-height: 74rpx;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #52C980;
+  color: #fff;
+  font-size: 14px;
+}
+
+.top-bar__operation{
+  display: flex;
+  margin: 20rpx 0;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.top-bar__operation view{
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+}
+
+.top-bar__operation image{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+
+.top-bar__operation text{
+  font-size: 12px;
+  color: #889091;
+}
+
+.operation-invite{
+  border-right: 1px solid #ebebeb;
+}
+
+.container-item{
+  padding: 30rpx 24rpx 12rpx;
+  margin-bottom: 10rpx;
+  background-color: #fff;
+  box-shadow: 0 2px 5px #eee;
+}
+
+.container-item__hd {
+  margin-bottom: 10rpx;
+}
+
+.container-item__hdavatar {
+  float: left;
+}
+
+.container-item__hdavatar image{
+  width: 45rpx;
+  height: 45rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.container-item__hdavatar text{
+  font-size: 14px;
+  color: #a0acac;
+  margin-left: 10rpx;
+}
+
+.container-item__more image{
+  width: 40rpx;
+  height: 45rpx;
+  float: right;
+  margin-top: 10rpx;
+}
+
+.container-item__cntitle{
+  font-size: 14px;
+}
+
+.container-item__cnt{
+  margin-top: 10rpx;
+  font-size: 12px;
+  color: #5b5b5b;
+}
+
+.container-item__ft text{
+  font-size: 12px;
+  color: #5b5b5b;
+}
+
+.container-item__ft .dot:after{
+  content: '';
+  display: inline-block;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background-color: #5b5b5b;
+  vertical-align: middle;
+  margin: 0 10rpx;
+
+}

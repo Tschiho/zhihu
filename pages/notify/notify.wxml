@@ -1,0 +1,87 @@
+<!--pages/notify/notify.wxml-->
+<view class='wrapper'>
+  <navbar nav-tab="{{navbar}}" bindchangeTab="changeTab"></navbar>
+ 
+ <view class='main-container'>
+   <scroll-view scroll-y>
+   <view class='ctn0' hidden='{{currentNavtab == 0? false : true}}'>
+     <view class='read-con clx'>
+       <text>0条未读</text>
+       <view class="allread">
+         <image src='../../images/allread.png'></image>
+       </view>
+     </view>
+      <view class='list'>
+     <view class='notify-item'>
+       <view class='avatar'><image src='../../images/icon1.jpeg'></image></view>
+       <view class='notify-content'>
+         <view class='source'><text>chiho回答了问题</text></view>        
+         <view class='answer'>
+           <text>今年互联网进入了寒冬啊，初级前端过剩，中高级前端有很大的缺口。</text>
+         </view>
+       </view>
+     </view>
+
+     <view class='notify-item'>
+       <view class='avatar'><image src='../../images/icon1.jpeg'></image></view>
+       <view class='notify-content'>
+         <view class='source'><text>chiho回答了问题</text></view>        
+         <view class='answer'>
+           <text>今年互联网进入了寒冬啊，初级前端过剩，中高级前端有很大的缺口。</text>
+         </view>
+       </view>
+     </view>
+
+     <view class='notify-item'>
+       <view class='avatar'><image src='../../images/icon1.jpeg'></image></view>
+       <view class='notify-content'>
+         <view class='source'><text>chiho回答了问题</text></view>        
+         <view class='answer'>
+           <text>今年互联网进入了寒冬啊，初级前端过剩，中高级前端有很大的缺口。</text>
+         </view>
+       </view>
+     </view>
+
+     <view class='notify-item'>
+       <view class='avatar'><image src='../../images/icon1.jpeg'></image></view>
+       <view class='notify-content'>
+         <view class='source'><text>chiho回答了问题</text></view>        
+         <view class='answer'>
+           <text>今年互联网进入了寒冬啊，初级前端过剩，中高级前端有很大的缺口。</text>
+         </view>
+       </view>
+     </view>
+
+     <view class='notify-item'>
+       <view class='avatar'><image src='../../images/icon1.jpeg'></image></view>
+       <view class='notify-content'>
+         <view class='source'><text>chiho回答了问题</text></view>        
+         <view class='answer'>
+           <text>今年互联网进入了寒冬啊，初级前端过剩，中高级前端有很大的缺口。</text>
+         </view>
+       </view>
+     </view>
+
+     <view class='notify-item'>
+       <view class='avatar'><image src='../../images/icon1.jpeg'></image></view>
+       <view class='notify-content'>
+         <view class='source'><text>chiho回答了问题</text></view>        
+         <view class='answer'>
+           <text>今年互联网进入了寒冬啊，初级前端过剩，中高级前端有很大的缺口。</text>
+         </view>
+       </view>
+     </view>
+   </view>
+   </view>
+
+   <view class='cnt1' hidden='{{ currentNavtab == 1? false : true}}'>
+        <text>赞与感谢</text>
+      </view>
+      <view class='cnt2' hidden='{{ currentNavtab == 2? false : true}}'>
+        <text>关注</text>
+      </view>
+ </scroll-view>
+ </view>
+ 
+</view>
+

@@ -1,0 +1,55 @@
+<!--pages/discovery/discovery.wxml-->
+<view class='wrapper'>
+  <navbar nav-tab="{{navTab}}" bind:changeTab="changeTab"></navbar>
+  
+  <view class='container'>
+    <scroll-view>
+      <view class='cnt0' hidden='{{ currentNavtab == 0? false : true}}'>
+        <swiper class='banner' autoplay circular>
+          <swiper-item class='sw-item' wx:for="{{imgUrls}}">
+            <image class='swiper-img' src='{{item}}'></image>
+          </swiper-item>
+        </swiper>
+
+        <view class="list">
+          <block wx:for="{{list}}">
+           <view class="container-item">
+             <view class='container-item__hd clx'>
+               <view class='container-item__hdavatar'>
+                 <image src='{{item.feed_source_img}}'></image>
+                 <text>{{item.feed_source_txt}}</text>
+                </view>
+              </view>
+              <view class='container-item__body'>
+                <view class='container-item__bdcontent'>
+                  <view class='container-item__cntitle'><text>{{item.question}}</text></view>
+            <view class='container-item__cnt'><text>{{item.answer_ctnt}}</text></view>
+          </view>
+          <view class='container-item__ft'>
+            <text class='dot'>{{item.good_num}}赞同</text>
+            <text class='dot'>{{item.comment_num}}评论</text>
+            <text>关注问题</text>
+          </view>
+         </view>
+       </view>
+        </block>
+      </view>
+      </view>
+     
+      <view class='cnt1' hidden='{{ currentNavtab == 1? false : true}}'>
+        <text>圆桌</text>
+      </view>
+      <view class='cnt2' hidden='{{ currentNavtab == 2? false : true}}'>
+        <text>热门</text>
+      </view>
+      <view class='cnt3' hidden='{{ currentNavtab == 3? false : true}}'>
+        <text>收藏</text>
+      </view>
+      
+    </scroll-view>
+    
+
+    
+  </view>
+  
+</view>

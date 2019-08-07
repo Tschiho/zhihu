@@ -1,0 +1,76 @@
+<!--pages/question/question.wxml-->
+<view class='wrapper'>
+  <view class='container'>
+    <view class='top-panel'>
+      <view class='scroll-container'>
+        <scroll-view class='top-panel__keywords'  scroll-x>
+          <view class='keywords-item'>阅读</view>
+          <view class='keywords-item'>电子书</view>
+          <view class='keywords-item'>Kindle</view>
+          <view class='keywords-item'>书籍</view>
+          <view class='keywords-item'>文学</view>
+          <view class='keywords-item'>纸质书</view>
+          <view class='keywords-item'>其他</view>
+        </scroll-view>
+      </view>
+      
+      
+      <view class='top-panel__title'>
+        <text>选择Kindle而不是纸质书的原因是什么？</text>
+        <view>
+          <text class='desc'>WEB前端*不靠谱天气预报员*想做代码小仙女</text>
+        </view>
+        
+      </view>
+      
+      <view class='top-panel__ft clx'>
+        <view class='left'>
+         <view>
+           <image src='../../images/eye.png'></image>
+           <text class='ft__num'>3316</text>
+         </view>
+         <view>
+           <image src='../../images/comment2.png'></image>
+           <text class='ft__num'>27</text>
+         </view>
+        </view>
+        <view class='atttention_btn'>关注</view>
+      </view>
+
+      <view class='top-bar__operation'>
+        <view class='operation-invite'>
+          <image src='../../images/invite.png'></image>
+          <text>邀请回答</text>
+        </view>
+        <view>
+          <image src='../../images/write.png'></image>
+          <text>写答案</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='answer-list'>
+      <block wx:for="{{list}}">
+           <view class="container-item">
+             <view class='container-item__hd clx'>
+               <view class='container-item__hdavatar'>
+                 <image src='{{item.feed_source_img}}'></image>
+                 <text>{{item.feed_source_txt}}</text>
+                </view>
+              </view>
+              <view class='container-item__body'>
+                <view class='container-item__bdcontent'>
+                  <view class='container-item__cntitle'><text>{{item.question}}</text></view>
+            <view class='container-item__cnt'><text>{{item.answer_ctnt}}</text></view>
+          </view>
+          <view class='container-item__ft'>
+            <text class='dot'>{{item.good_num}}赞同</text>
+            <text class='dot'>{{item.comment_num}}评论</text>
+            <text>2个月前</text>
+          </view>
+         </view>
+       </view>
+        </block>
+    </view>
+  </view>
+</view>

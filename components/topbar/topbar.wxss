@@ -1,0 +1,23 @@
+/* components/topbar/topbar.wxss */
+.topbar{
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #298DE5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.topbar-item{
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  color: #8CCEFD;
+}
+
+.topbar-item.cur{
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}

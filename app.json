@@ -1,0 +1,39 @@
+{
+  "pages": [
+    
+    "pages/notify/notify",
+    "pages/question/question",
+    "pages/discovery/discovery",
+    "pages/index/index",  
+    "pages/answer/answer",
+    "pages/chat/chat",
+    "pages/more/more" 
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0068C4",
+    "navigationBarTitleText": "知乎",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#0068C4",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/index.png",
+      "selectedIconPath": "/images/index_focus.png"
+    },{
+      "pagePath": "pages/discovery/discovery",
+      "text": "发现",
+      "iconPath": "images/discovery.png",
+      "selectedIconPath": "images/discovery_focus.png"
+    }, {
+      "pagePath": "pages/notify/notify",
+      "text": "通知",
+      "iconPath": "images/ring.png",
+      "selectedIconPath": "images/ring_focus.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

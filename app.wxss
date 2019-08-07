@@ -1,0 +1,9 @@
+/**app.wxss**/
+.clx:before, .clx:after{
+  content: '';
+  display: table;
+}
+
+.clx::after{
+  clear: both;
+}

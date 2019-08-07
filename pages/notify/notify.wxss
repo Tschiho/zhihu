@@ -1,0 +1,47 @@
+/* pages/notify/notify.wxss */
+.read-con{
+  padding: 10rpx 40rpx;
+}
+
+.read-con text{
+  font-size: 14px;
+  color: #9A9C9B;
+}
+
+.allread{
+  float: right;
+}
+
+.allread image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.notify-item{
+  padding: 25rpx 70rpx 25rpx 40rpx;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+}
+
+.notify-content{
+  font-size: 14px;
+}
+
+.avatar image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.notify-content{
+  margin-left: 30rpx;
+}
+
+.notify-content .source{
+  color: #818181;
+}
+
+.notify-item .answer{
+  color: #AFAFAF;
+  font-size:14px;
+}

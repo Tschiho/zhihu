@@ -1,0 +1,120 @@
+/* pages/answer/answer.wxss */
+.question-title{
+  padding: 40rpx 50rpx;
+  height: 158rpx;
+  background-color: #298DE5;
+  color: #fff;
+}
+
+.response-info{
+  margin: 0 30rpx;
+  padding: 0 32rpx;
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-75rpx);
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px #bebebe;
+}
+
+.portrait{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+
+.user{
+  flex: 1;
+  margin: 0 20rpx;
+}
+
+.user .username{
+  font-size: 16px;
+}
+
+.user .user-intro{
+  font-size: 12px;
+  color: #808080;
+}
+
+.attention{
+  border: 2px solid #40bcd0;
+  color: #40bcd0;
+  width: 120rpx;
+  height: 66rpx;
+  text-align: center;
+  border-radius: 3px;
+  line-height: 66rpx;
+  font-size: 14px;
+}
+
+.answer-content{
+  padding: 0 40rpx;
+  margin-top: -45rpx;
+  
+}
+
+.answer-content text{
+  font-size: 16px;
+  color: #454545;
+}
+
+.answer-content image{
+  width: 100%;
+}
+
+.footer{
+  position: fixed;
+  height: 70rpx;
+  padding: 20rpx 40rpx;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+}
+
+.footer .like{
+  
+  width: 140rpx;
+  height: 66rpx;
+  border-radius: 3px;
+  border: 1px solid #d1d1d1;
+  text-align: center;
+}
+
+.footer .like image{
+  width: 38rpx;
+  height: 38rpx;
+  vertical-align: bottom;
+}
+
+.footer .like text{
+  font-size: 12px;
+}
+
+.footer-pannel{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 60rpx;
+}
+
+.ft-item{  
+   text-align: center;
+   flex: 1;
+}
+.ft-item image{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0 auto;
+
+}
+
+.ft-item{
+  font-size: 12px;
+  color: #bebebe;
+}

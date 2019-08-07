@@ -1,0 +1,5 @@
+<!--components/topbar/topbar.wxml-->
+<view class='topbar'>
+    <view wx:for="{{navTab}}" class='topbar-item {{index == currentNavtab? "cur" : ""}}' bindtap='changeTab' data-idx='{{index}}'>{{item}}</view>
+  </view>
+  <view style='height: 100rpx;'></view>

@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class='wrapper'>
+  <view class="search-bar">
+    <view class='search-bar__container'>
+      <image class='icon-sch' src='../../images/search.png'></image>
+      <view class="search-bar__content">
+        <input class='text' placeholder-class placeholder="搜索话题、问题或人" />
+      </view>
+      <image class='live' src='../../images/lighting.png'></image>
+    </view>
+    
+  </view>
+
+  <view class='container'>
+     <block wx:for="{{list}}" wx:for-index="idx">
+       <view class="container-item">
+         <view class='container-item__hd clx'>
+           <view class='container-item__hdavatar'>
+             <image src='{{item.feed_source_img}}'></image>
+             <text>{{item.feed_source_txt}}</text>
+           </view>
+           <view class='container-item__more'>
+             <image src='../../images/more.png'></image>
+           </view>
+         </view>
+         <view class='container-item__body'>
+          <view class='container-item__bdcontent' bindtap='todetail'>
+            <view class='container-item__cntitle'><text>{{item.question}}</text></view>
+            <view class='container-item__cnt'><text>{{item.answer_ctnt}}</text></view>
+          </view>
+          <view class='container-item__ft'>
+            <text class='dot'>{{item.good_num}}赞同</text>
+            <text class='dot'>{{item.comment_num}}评论</text>
+            <text>关注问题</text>
+          </view>
+         </view>
+       </view>
+
+     </block>
+  </view>
+</view>
